@@ -1,22 +1,10 @@
 import "./App.css";
-import Video from "./videos/video.mp4";
+import Video from "./videos/video1.mp4";
 import logo from "./images/digitama-logo.png";
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>WEB SMS COMING SOON</p>
-        <a
-          className="App-link"
-          href="https://websms-two.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sample web
-        </a>
-      </header> */}
       <video
         autoPlay
         muted
