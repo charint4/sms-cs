@@ -28,6 +28,51 @@
   color: #61dafb;
 }
 
+.vb {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 140px;
+  height: 55px;
+  margin-bottom: 44px;
+}
+
+.cms {
+  font-weight: 700;
+  background: linear-gradient(267.13deg, #0e5579 7.72%, #ac2523 96.93%);
+  font-size: 72px;
+  line-height: 108px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 0;
+  margin-bottom: 12;
+}
+
+.lorem {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #545659;
+  margin: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
