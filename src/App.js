@@ -21,7 +21,7 @@ function App() {
           <h1 className="cms">Coming Soon</h1>
         </div>
         <div className="main">
-          <h4 className="lorem">Lorem ipsum dolor sit amet</h4>
+          <h4 className="lorem">Grow yours!</h4>
         </div>
       </div>
     </div>
